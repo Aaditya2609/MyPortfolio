@@ -111,3 +111,21 @@ hr
 {
     background-color: var(--gray-color);
 }
+
+/* Footer */
+.footer
+{
+    background-color: var(--primary-color);
+    text-align: center;
+    color:white;
+    border-top-right-radius: 0.5rem;
+    padding: 1rem 1rem;
+}
+.footer .link
+{
+    color: white;
+}
+.footer ul
+{
+    padding-inline-start: 0px;
+}
