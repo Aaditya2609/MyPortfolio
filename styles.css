@@ -5,6 +5,7 @@
 }
 body
 {
+    margin: 0px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -94,6 +95,7 @@ hr
 }
 .myheader .heading
 {
+    text-align: center;
     padding-top: 1rem;
     font-size: x-large;
 }
