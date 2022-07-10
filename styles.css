@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 :root{
     --primary-color: #22d3ee;
+    --gray-color:#d1d5db;
 }
 body
 {
@@ -58,10 +59,55 @@ hr
 {
     background-color: var(--primary-color);
     color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 0.5rem;
     
 }
 .navigation .link
 {
     color: white;
 }
+.nav-brand
+{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.nav-pills
+{
+    text-align: right;
+}
+.link-active
+{
+    font-weight: bold;
+}
 
+/* Header */
+.myheader
+{
+    padding: 2rem;
+}
+.myheader .coder-img
+{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+.myheader .heading
+{
+    padding-top: 1rem;
+    font-size: x-large;
+}
+
+/* Section */
+.section
+{
+    padding: 2rem;
+}
+.section h1
+{
+    text-align: center;
+}
+.ow
+{
+    background-color: var(--gray-color);
+}
