@@ -34,21 +34,36 @@ hr
 }
 .link-primary
 {
+    display: inlin-block;
     background-color: var(--primary-color);
     border-radius: 1rem;
     color: white;
+    width:fit-content;
+    margin: 1rem 0.2rem;
+    
 }
 .link-secondary
 {
+    display: inline-block;
     color:var(--primary-color);
     border-radius: 1rem;
     border: 1px solid var(--primary-color);
+    width: fit-content;
+    margin: 1rem 0.2rem;
+    
+}
+
+.link-icon
+{
+    margin: 0px;
+    height:40px;
 }
 
 /* Lists */
 .list-non-bullet
 {
     list-style: none;
+    padding-inline-start: 0;
 }
 .list-item-inline
 {
@@ -67,6 +82,8 @@ hr
 }
 .navigation .link
 {
+    padding: 0.5rem;
+    display: inline-block;
     color: white;
 }
 .nav-brand
@@ -104,10 +121,11 @@ hr
 /* Section */
 .section
 {
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
-    margin:2rem;
-    border-radius: 1rem;    
+    margin:1rem auto;
+    border-radius: 1rem;  
+    max-width: 600px;
 }
 .section h1
 {
