@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
 :root{
     --primary-color: #4484ce;
     --gray-color:#f3f4f6;
     --black: #000000ff;
     --rich-black-fogra-39: #111111ff;
-    --jet: rgb(31, 31, 31);
+    --jet: rgb(45, 45, 45);
     --white: #ffffffff;
     --flickr-blue: #0761d1ff;
     --french-rose: #ea558dff;
@@ -16,14 +16,10 @@
 body
 {
     margin: auto;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
     max-width: 85%;
     background-color: var(--rich-black-fogra-39);
     color: white;
-}
-h1
-{
-
 }
 
 hr
@@ -145,6 +141,7 @@ hr
     -webkit-text-fill-color: transparent;
     text-align: center;
     padding-top: 0.5rem;
+    margin-block-start: 0px;
     margin-block-end: 0px;
     font-size: 50px;
 }
@@ -162,10 +159,8 @@ hr
 }
 .section h1
 {
-    background: linear-gradient(to right,var( --french-rose) 30% ,var(--blue-crayola) 70%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 35px;
+    color: var(--cyan-process);
+    font-size: 32px;
     text-align: center;
     margin: 00.5rem;
     margin-block-end: 0px;
@@ -206,9 +201,8 @@ hr
     padding: 0;
 }
 strong{
-    background: linear-gradient(to left,var( --french-rose) ,var(--cyan-process));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    color: var(--french-rose);
     
 }
 #header-para
