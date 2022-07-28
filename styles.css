@@ -17,7 +17,7 @@ body
 {
     margin: auto;
     font-family: 'Roboto Slab', serif;
-    max-width: 85%;
+    max-width: 90%;
     background-color: var(--rich-black-fogra-39);
     color: white;
 }
@@ -101,6 +101,7 @@ hr
 }
 .nav-brand
 {
+    display: inline-block;
     font-weight: bold;
     font-size: 1.2rem;
 }
