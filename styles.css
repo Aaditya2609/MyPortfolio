@@ -15,9 +15,9 @@
 }
 body
 {
+    max-width: 90%;
     margin: auto;
     font-family: 'Roboto Slab', serif;
-    max-width: 90%;
     background-color: var(--rich-black-fogra-39);
     color: white;
 }
@@ -48,7 +48,7 @@ hr
 {
     display: inline-block;
     background-color: transparent;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     border: 2px solid var(--cyan-process);
     color: var(--cyan-process);
     width:fit-content;
@@ -59,7 +59,7 @@ hr
 {
     display: inline-block;
     color:var(--white);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     border: 2px solid var(--white);
     width: fit-content;
     margin: 0.25rem 0.2rem;
@@ -146,14 +146,32 @@ hr
     margin-block-end: 0px;
     font-size: 50px;
 }
-
+.myheader .div
+{
+    display: block;
+    width: 400px;
+    text-align: justify;
+    margin:1rem auto;
+}
+.myheader .name
+{
+    margin: 0px;
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--cyan-process);
+}
+.myheader p
+{
+    margin: 0;
+    padding: 0;
+}
 /* Section */
 .section
 {
     padding: 0.5rem;
     text-align: center;
-    margin:1rem auto;
-    border-radius: 2rem;  
+    margin:2rem auto;
+    border-radius: 1rem;  
     border:2px solid var(--cyan-process);
     max-width: 600px;
     background:  var(--rich-black-fogra-39);
