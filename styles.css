@@ -127,7 +127,7 @@ hr
 /* Header */
 .myheader
 {
-    padding: 1rem;
+    padding: 1rem 1rem 0rem;
 }
 .myheader .coder-img
 {
@@ -149,7 +149,7 @@ hr
 .myheader .div
 {
     display: block;
-    width: 400px;
+   max-width: 600px;
     text-align: justify;
     margin:1rem auto;
 }
@@ -157,7 +157,7 @@ hr
 {
     margin: 0px;
     font-weight: 600;
-    font-size: 45px;
+    font-size: 35px;
     color: var(--cyan-process);
 }
 .myheader p
