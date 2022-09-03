@@ -87,7 +87,7 @@ hr
 /* Navigation */
 .navigation
 {
-    background: linear-gradient(to right,var( --blue-crayola) 20%,var(--cyan-process) 70%);
+    background: var(--cyan-process);
     color:white;
     padding: 0.5rem;
     border-bottom-left-radius: 0.5rem;
@@ -137,9 +137,7 @@ hr
 }
 .myheader .heading
 {
-    background: linear-gradient(to right, #7303c0 20%,var(--french-rose) 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--cyan-process);
     text-align: center;
     padding-top: 0.5rem;
     margin-block-start: 0px;
@@ -164,6 +162,11 @@ hr
 {
     margin: 0;
     padding: 0;
+}
+#header-div-projects
+{
+    text-align: center;
+    margin: auto;
 }
 /* Section */
 .section
