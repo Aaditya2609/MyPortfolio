@@ -147,7 +147,7 @@ hr
 .myheader .div
 {
     display: block;
-   max-width: 600px;
+   max-width: 650px;
     text-align: justify;
     margin:1rem auto;
 }
@@ -197,7 +197,7 @@ hr
 .footer
 {
     text-align: center;
-    background: linear-gradient(to right,var( --blue-crayola) 20%,var(--cyan-process) 70%);
+    background: var(--cyan-process);
     color:white;
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
